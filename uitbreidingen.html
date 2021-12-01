@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- Animate -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <title>Wiki Battlefield 1</title>
+        <!-- basic background settings -->
+        <style type="text/css">
+            body {
+            background-image: url(./img/uitbreidingBackground.jpg);
+            background-repeat: no-repeat;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Start nevbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand" href="#">Wiki</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#gameProperties">Spel eigenschappen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./threads.php">Comments</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="">Uitbreidingen</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a class="btn btn-outline-success my-2 my-sm-0" href="./login.php">Login</a>
+                </form>
+            </div>
+        </nav>
+        <!--End Nevbar-->
+        <!-- Beginning of the modals -->
+        <div class="modal fade" id="NotPassModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">They shall not pass</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Het Franse leger is aangekomen in Battlefield 1, en nu het moederland in gevaar is, wordt dit een gevecht dat niet verloren mag worden. Ga het veld in met een gloednieuwe Elite-klasse, frisse voertuigen, gemene wapens en nog veel meer, en vecht op zes nieuwe maps die direct uit verhalen over de Grote Oorlog komen.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="TsarModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">In the name op Tsar</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Bundel je krachten met het Russische leger aan het uitgestrekte oostfront van de Eerste Wereldoorlog en wees getuige van de machtsstrijd tijdens de burgeroorlog die volgde.
+                            Rijd in Galicië met de legendarische huzaren tijdens het epische Broesilov-offensief. Doe mee aan de schermutselingen tijdens de Albion-aanval op een ijskoude archipel. Vlieg met de enorme bommenwerper Ilya Muromets over de besneeuwde ravijnen van de verraderlijke Łupków-pas. Bestuur de inventieve gepantserde Putilov-Garford-wagen op de open map Galicia. Vecht in Tsaritsyn waar het vuur van machinegeweren over de straten echoot, terwijl het Witte en Rode Leger strijden om controle over Rusland in de burgeroorlog.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="TurningModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Turning sides</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Bestorm de stranden van Gallipoli met de geallieerde strijdkrachten of verdedig de versterkingen van het Ottomaanse Keizerrijk op Kaap Helles. Zet de strijd voort op de Achi Baba-heuveltop in een intense infanteriegerichte aanval. Stort je in epische maritieme confrontaties tussen de Royal Marines van het Britse Rijk en de Duitse marine in de Duitse Bocht. Doe mee aan de gewaagde Britse aanval op Zeebrugge met ruige golven en een uitgestrekte Duitse pier.
+                            Battlefield 1 Turning Tides breidt het arsenaal uit met de nieuwe L-Class Destroyer, die klaarstaat om over de golven te heersen in maritieme gevechten, en het nieuwe C-Class Airship, dat de dood van boven laat komen.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="ApoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Apocolypse</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Baan je klauwend een weg over het vernietigde landschap van Passchendaele, gevuld met bloed en modder, en verberg je in schuilholen en verwoeste ruïnes. Voer bestormingen uit in de tarwevelden van de rivier de Somme terwijl het strijdveld verandert in de hel op aarde door het allesverwoestende artillerievuur. Vecht in bergloopgraven bij de Isonzo-rivier terwijl Oostenrijk-Hongarije het opneemt tegen het Italiaanse leger op zwaar bevochten terrein in Caporetto.
+                            Wees vliegende tegenstanders te slim af in cataclysmische luchtgevechten op de maps Razor’s Edge en London Calling, en word een ridder van de lucht in de nieuwe spelmodus Air Assault. Bereid je voor op de afschuwelijke verschrikkingen van de Eerste Wereldoorlog.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of modals -->
+        <!-- beginning og the extansion packs -->
+        <div class="grid-container">
+            <div class="pic1">
+                <div class="expansionText animation1 text-center" onmouseover="animateCSS('.animation1', 'fadeInDown');">
+                    <h1>They shall not pass</h1>
+                </div>
+                <a>
+                <img src="https://media.contentapi.ea.com/content/dam/gin/images/2017/01/battlefield-1-they-shall-not-pass-key-art.jpg.adapt.crop1x1.767w.jpg" width="400px">
+                </a>
+            </div>
+            <div class="pic1 pic-bg" onmouseover="animateCSS('.animation1', 'fadeInDown');" onclick="ToggleModal('#NotPassModal')"></div>
+            <div class="pic2">
+                <div class="expansionText animation2 text-center" onmouseover="animateCSS('.animation2', 'fadeInDown');">
+                    <h1>In the name of Tsar</h1>
+                </div>
+                <a href="">
+                <img src="https://media.contentapi.ea.com/content/dam/gin/images/2017/01/battlefield-1-in-the-name-of-the-tsar-keyart.jpg.adapt.crop1x1.767w.jpg" width="400px">
+                </a>
+            </div>
+            <div class="pic2 pic-bg" onmouseover="animateCSS('.animation2', 'fadeInDown');" onclick="ToggleModal('#TsarModal')"></div>
+            <div class="pic3">
+                <div class="expansionText animation3 text-center" onmouseover="animateCSS('.animation3', 'fadeInDown');">
+                    <h1>Turning sides</h1>
+                </div>
+                <a href="">
+                <img src="https://media.contentapi.ea.com/content/dam/gin/images/2017/01/battlefield-1-turning-tides-keyart.jpg.adapt.crop1x1.767w.jpg" width="400px">
+                </a>
+            </div>
+            <div class="pic3 pic-bg" onmouseover="animateCSS('.animation3', 'fadeInDown');" onclick="ToggleModal('#TurningModal')"></div>
+            <div class="pic4">
+                <div class="expansionText animation4 text-center" onmouseover="animateCSS('.animation4', 'fadeInDown');">
+                    <h1>Apocolypse</h1>
+                </div>
+                <a href="">
+                <img src="https://media.contentapi.ea.com/content/dam/gin/images/2017/01/battlefield-1-apocalypse-keyart.jpg.adapt.crop1x1.767w.jpg" width="400px">
+                </a>
+            </div>
+            <div class="pic4 pic-bg" onmouseover="animateCSS('.animation4', 'fadeInDown');" onclick="ToggleModal('#ApoModal')"></div>
+        </div>
+        <!-- end of the extansion packs -->
+        <!-- Optional JavaScript -->
+        <script type="text/javascript" src="js/script.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>

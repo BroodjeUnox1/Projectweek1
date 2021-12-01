@@ -1,0 +1,91 @@
+body {
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	margin: 0px 0px;
+}	
+
+
+#secondBackground {
+	background-image: url(../img/background2.jpg);
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr 1.3fr 1.3fr 0.7fr 1fr;
+  grid-template-rows: 0.08fr 1fr 1fr;
+  gap: 7px 7px;
+  grid-template-areas:
+    ". . . . . ."
+    ". . pic1 pic2 . ."
+    ". . pic3 pic4 . .";
+}
+.pic1 { 
+	grid-area: pic1;
+	position: relative; 
+}
+.pic2 {
+	grid-area: pic2;
+	position: relative;
+}
+.pic3 {
+	grid-area: pic3;
+	position: relative;
+}
+.pic4 {
+	grid-area: pic4;
+	position: relative;
+}
+
+.pic-bg {
+	z-index: 10;
+	background: rgb(224,125,34);
+	background: linear-gradient(135deg, rgba(224,125,34,1) 0%, rgba(221,174,29,1) 100%);
+	opacity: 0;
+}
+
+.pic-bg:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.pic-bg {
+	margin-right: 0px;
+}
+
+
+
+.expansionText {
+	color: white;
+	position: absolute;
+	width: 400px;
+	top: 90%;
+	margin-top: -28px;
+	z-index: 11;
+
+}
+
+.cards {
+	top: 1250px;
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+.card-header {
+	font-family: "Yusei Magic";
+	font-size: 20px;
+	color: rgba(224,125,34,1);
+	font-weight: 700;
+}
+
+.gameProperties {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	color: rgba(224,125,34,1);
+}
